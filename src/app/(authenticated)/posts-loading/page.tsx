@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import NewPostBtn from '@/components/NewPostBtn';
 
+export const dynamic = 'force-dynamic';
+
 export default async function PostsPage() {
   await new Promise((resolve) => setTimeout(resolve, 5000));
   return (

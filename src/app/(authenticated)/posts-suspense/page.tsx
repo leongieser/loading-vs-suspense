@@ -3,6 +3,8 @@ import PostsGridSkeleton from './Skeleton';
 import PostsGrid from './PostGrid';
 import { Suspense } from 'react';
 
+export const dynamic = 'force-dynamic';
+
 export default async function PostsPage() {
   return (
     <>
